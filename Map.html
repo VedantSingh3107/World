@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map</title>
+</head>
+<body style="background-color: rgb(211, 234, 255);">
+
+    <h2 style="color:rgb(255, 255, 255)">World <img src="map-of-world.jpg" alt="My photo" width="50" height="30"></h2>
+    <h2><a href="World.html">Home</a>   <a href="Owner.html">Owner</a>   <a href="Map.html">World Map</a></h2>
+    
+    <input type="color" id="colom">
+    <button style="background-color:rgba(0, 195, 255, 0.63); border-color:blue; color:rgb(0, 0, 0)" 
+    onclick="changeColor()">Change the color </button> 
+
+    
+
+    <script>
+        function changeColor() {
+            let color = document.getElementById('colom').value;
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+    <hr>
+    <img src="world map.jpg" alt="Map">
+</body>
+</html>
